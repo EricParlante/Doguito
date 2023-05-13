@@ -6,8 +6,7 @@ const SubCategoria = () => {
 
     return (
         <ListPosts url={`/posts?subcategoria=${subcategoria}`}/>
-    )
-        
+    )    
 }
 
 export default SubCategoria;
